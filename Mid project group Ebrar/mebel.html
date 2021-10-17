@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta lang="eng">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mebel.css">
+	<!-- <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous"> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script> -->
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/d6626765ab.js" crossorigin="anonymous"></script>
+
+</head>
+<body  >
+		<div class="header">
+			<nav class="navbar navbar-dark bg-dark fixed-top hello">
+  				<div class="container-fluid">
+    				<a class="navbar-brand" href="#">Offcanvas navbar</a>
+   	 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      					<span class="navbar-toggler-icon"></span>
+    				</button>
+    			<div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      				<div class="offcanvas-header">
+        				<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        				<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      				</div>
+      			<div class="offcanvas-body">
+        			<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          				<li class="nav-item">
+            				<a class="nav-link active" aria-current="page" href="#">Home</a>
+          				</li>
+          				<li class="nav-item">
+            				<a class="nav-link" href="#">Link</a>
+          				</li>
+          				<li class="nav-item dropdown">
+            				<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              				Dropdown
+            				</a>
+            				<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+              					<li><a class="dropdown-item" id="itm" href="#">Action</a></li>
+              					<li><a class="dropdown-item" href="#">Another action</a></li>
+              					<li>
+                					<hr class="dropdown-divider">
+              					</li>
+              					<li><a class="dropdown-item" href="#">Something else here</a></li>
+            				</ul>
+          				</li>
+        			</ul>
+        				<form class="d-flex">
+          					<input class="form-control me-2 bg-dark" type="search" placeholder="Search" aria-label="Search">
+          					<button class="btn btn-outline-success" type="submit">Search</button>
+        				</form>
+      			</div>
+    			</div>
+  				</div>
+			</nav>
+		</div>
+
+		<div class="slide">
+			<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  				<div class="carousel-indicators">
+    				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  				</div>
+  
+		  		<div class="carousel-inner">
+    				<div class="carousel-item active" id="slide">
+      					<img src="media/items/slide.jpeg" alt="Los Angeles" class="d-block" style="width:100%">
+      					<div class="carousel-caption d-none d-md-block crstxt">
+      				       <div class="tocenter">	
+        					<h5 >First slide label</h5>
+        					<p>Some representative placeholder content for the first slide.</p>
+      					   </div>
+      					</div>	
+    				</div class="tocenter">
+    				<div class="carousel-item" id="slide2">
+      					<img src="media/items/slide2.jpeg" alt="Chicago" class="d-block" style="width:100%">
+      					<div class="carousel-caption d-none d-md-block">
+      					   <div  class="tocenter">
+        					<h5 >First slide label</h5>
+        					<p>Some representative placeholder content for the first slide.</p>
+      					   </div>
+      				  </div>	
+    				</div>
+    				<div class="carousel-item" id="slide3">
+      					<img src="media/items/slide3.jpeg" alt="New York" class="d-block" style="width:100%">
+      					<div class="carousel-caption d-none d-md-block">
+      					   <div class="tocenter">	
+        					<h5>First slide label</h5>
+        					<p>Some representative placeholder content for the first slide.</p>
+      					   </div>
+      					</div>
+    				</div>
+  				</div>
+  
+			  	<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    				<span class="carousel-control-prev-icon"></span>
+  				</button>
+  				<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    				<span class="carousel-control-next-icon"></span>
+  				</button>
+			</div>
+		</div>
+
+
+
+	   <div class="row">
+		<div class="main " id="main">
+			<div class="cols">
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello">Simple collapsible</button>
+  						<div id="hello" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello1">Simple collapsible</button>
+  						<div id="hello1" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello3">Simple collapsible</button>
+  						<div id="hello3" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello4">Simple collapsible</button>
+  						<div id="hello4" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello5">Simple collapsible</button>
+  						<div id="hello5" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+				<div class="cps">
+					 <button type="button" class="btn btn-primary btn-dark" data-bs-toggle="collapse" data-bs-target="#hello6">Simple collapsible</button>
+  						<div id="hello6" class="collapse">
+  					<div class="list-group">
+					  <a href="#" class="list-group-item list-group-item-action active bg-dark" aria-current="true">
+					    The current link item
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+					  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+					</div>
+  				</div>
+				</div>
+
+
+  			</div>	
+			<hr>
+			<h2>Recomendations</h2>
+			<hr class="rounded">
+			<hr>
+			<div class="rec">
+				 <div class="col">
+					    <div class="card h-100 top_margin">
+					      <img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					        <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+					        <div class="card_btn">
+					        	<button class="btn">
+					        	<i onclick="like(this)" class="far fa-heart"></i>
+					        	</button>
+					        	<button class="btn">
+					        	<i onclick="toStash(this)"  class="fas fa-cart-plus"></i>
+					        	</button>
+					        	<a href="#">
+        							<button class="btn abt">
+        								About
+        							</button>
+        						</a>
+					        </div>
+					      </div>
+					    </div>
+  				 </div>
+  				 <div class="card h-100 top_margin">
+						<img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+						     	<div class="card_btn">
+						        	<button class="btn">
+						        		<i onclick="like(this)" class="far fa-heart"></i>
+						        	</button>
+						        	<button class="btn ">
+						        		<i onclick="toStash(this)"  class="fas fa-cart-plus"></i>
+						        	</button>
+						        	<a href="#">
+						        		<button class="btn abt">
+						        			About
+						        		</button>
+						        	</a>
+        						</div>
+      					</div>
+    			</div>
+    			<div class="card h-100 top_margin">
+						<img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+						    <h5 class="card-title">Card title</h5>
+						    <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+						     	<div class="card_btn">
+						        	<button class="btn">
+						        		<i onclick="like(this)" class="far fa-heart"></i>
+						        	</button>
+						        	<button class="btn ">
+						        		<i onclick="toStash(this)"  class="fas fa-cart-plus"></i>
+						        	</button>
+						        	<a href="#">
+						        		<button class="btn abt">
+						        			About
+						        		</button>
+						        	</a>
+        						</div>
+      					</div>
+    			</div>
+    			
+			</div>
+		</div>
+
+							<div class="column vm">
+								<div class="icons">
+					 				<div class="sale wdth">
+					 					<div class="txet">
+
+					 						<i class="bi bi-percent">
+					 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-percent orange" viewBox="0 0 16 16">
+					  								<path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+												</svg>Sales every month
+
+											</i>
+										</div>
+					 				</div>
+					 				<div class="best wdth">
+					 					<div class="txet">
+					 						<i class="bi bi-tools">
+					 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tools orange" viewBox="0 0 16 16">
+					  								<path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
+												</svg>Choose size and color by yourself
+					 						</i>
+										</div>
+					 				</div>
+					 				<div class="dost wdth">
+					 					<div class="txet">
+
+					 						<i class="bi bi-truck">
+					 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck orange" viewBox="0 0 16 16">
+					  								<path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 	0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+												</svg>Worldwide shipping
+
+											</i>
+					 					</div>
+					 				</div>
+								</div>
+									<div class="cards">
+
+										<h2>Official Shop Mansur Mebel'</h2>
+										<div style="display: flex;">
+										<a href="#" class="carda">
+											<div class="row row-cols-1 row-cols-md-3 g-4">
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="col">
+					    <div class="card h-100">
+					      <img src="media/items/slide.jpeg" class="card-img-top" alt="...">
+					      <div class="card-body">
+					        <h5 class="card-title">Card title</h5>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+										</a>
+									</div>
+								  </div>
+					<div>
+						<h2>Our Feedbacks</h2>
+						<div id="myCarousel" class="carousel slide bg-inverse w-50 ms-auto me-auto" data-bs-ride="carousel">
+								  <div class="carousel-inner" role="listbox">
+								    <div class="carousel-item active">
+								      <div class="card mb-3" style="max-width: 540px;">
+								  <div class="row g-0">
+								    <div class="col-md-4">
+								      <div class="card h-100">
+														<img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+														<div class="card-body">
+														    <h5 class="card-title">Card title</h5>
+														    <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+														     	
+								      					</div>
+								    			</div>
+								    </div>
+								    <div class="col-md-8">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								    </div>
+								    <div class="carousel-item">
+								      <div class="card mb-3" style="max-width: 540px;">
+								  <div class="row g-0">
+								    <div class="col-md-4">
+								      <div class="card h-100">
+														<img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+														<div class="card-body">
+														    <h5 class="card-title">Card title</h5>
+														    <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+														     	
+								      					</div>
+								    			</div>
+								    </div>
+								    <div class="col-md-8">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								    </div>
+								    <div class="carousel-item">
+								      <div class="card mb-3" style="max-width: 540px;">
+								  <div class="row g-0">
+								    <div class="col-md-4">
+								      <div class="card h-100">
+														<img src="media/main/comod.jpeg" class="card-img-top" alt="...">
+														<div class="card-body">
+														    <h5 class="card-title">Card title</h5>
+														    <div class="price"><p><strike>150.66$</strike></p> <p class="price_new">132.35$</p></div>
+														     	
+								      					</div>
+								    			</div>
+								    </div>
+								    <div class="col-md-8">
+								      <div class="card-body">
+								        <h5 class="card-title">Card title</h5>
+								        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								    </div>
+								  </div>
+								  <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="visually-hidden">Previous</span>
+								  </a>
+								  <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-target="#myCarousel" data-bs-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								    <span class="visually-hidden">Next</span>
+								  </a>
+							</div>
+
+					</div>
+					<div>
+						<h2>Sertificates</h2>
+						<div class="serts">
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+							<hr>
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+							<a class="example-image-link" href="media/main/comod.jpeg"><img src="media/main/comod.jpeg"></a>
+
+						</div>
+
+
+					</div>		
+
+		</div>
+
+
+
+
+
+	   </div>
+
+		<div class="marks">
+					   	<div class="card mb-3 itms" style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				    	<!-- <i class="fas fa-couch"> -->
+				    		<img src="media/icons/preview.svg">
+				    	</i>
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Wide range of!</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="card mb-3 itms" style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="media/icons/dollar.svg" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Card title</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="card mb-3 itms"  style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="media/icons/delivery.svg" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Card title</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="card mb-3 itms"  style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="media/icons/create.svg" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Card title</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="card mb-3 itms"  style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="media/icons/quality.png" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Card title</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<div class="card mb-3 itms"  style="max-width: 480px;">
+				  <div class="row g-0">
+				    <div class="col-md-4">
+				      <img src="media/icons/sale.svg" class="img-fluid rounded-start" alt="...">
+				    </div>
+				    <div class="col-md-8">
+				      <div class="card-body">
+				        <h5 class="card-title">Card title</h5>
+				        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
+
+
+	   </div>
+	   <div class="contract">
+	   		<div class="call">
+	   			<h2>Any Questions?</h2>
+	   			<p>Call our managers, they will help you with competent advice on choosing exactly the furniture that suits your room the most.</p>
+	   			<div>
+	   				<i class="bi bi-percent">
+					 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill orange" viewBox="0 0 16 16">
+  													<path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+												</svg>
+												<small>Every Day 9:00-21:00</small>
+												<b><p>+7 (700) 964-49-39</p></b>
+
+											</i>
+
+	   			</div>
+	   		</div>
+	   </div>
+
+	   <div class="footer">
+	   		<!-- Footer -->
+						<footer class="text-center text-lg-start bg-light text-muted bg-dark">
+						  <!-- Section: Social media -->
+						  <section
+						    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+						  >
+						    <!-- Left -->
+						    <div class="me-5 d-none d-lg-block">
+						      <span>Get connected with us on social networks:</span>
+						    </div>
+						    <!-- Left -->
+
+						    <!-- Right -->
+						    <div>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-facebook-f"></i>
+						      </a>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-twitter"></i>
+						      </a>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-google"></i>
+						      </a>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-instagram"></i>
+						      </a>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-linkedin"></i>
+						      </a>
+						      <a href="" class="me-4 text-reset">
+						        <i class="fab fa-github"></i>
+						      </a>
+						    </div>
+						    <!-- Right -->
+						  </section>
+						  <!-- Section: Social media -->
+
+						  <!-- Section: Links  -->
+						  <section class="">
+						    <div class="container text-center text-md-start mt-5">
+						      <!-- Grid row -->
+						      <div class="row mt-3">
+						        <!-- Grid column -->
+						        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						          <!-- Content -->
+						          <h6 class="text-uppercase fw-bold mb-4">
+						            <i class="fas fa-gem me-3"></i>Company name
+						          </h6>
+						          <p>
+						            Here you can use rows and columns to organize your footer content. Lorem ipsum
+						            dolor sit amet, consectetur adipisicing elit.
+						          </p>
+						        </div>
+						        <!-- Grid column -->
+
+						        <!-- Grid column -->
+						        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+						          <!-- Links -->
+						          <h6 class="text-uppercase fw-bold mb-4">
+						            Products
+						          </h6>
+						          <p>
+						            <a href="#!" class="text-reset">Angular</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">React</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">Vue</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">Laravel</a>
+						          </p>
+						        </div>
+						        <!-- Grid column -->
+
+						        <!-- Grid column -->
+						        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						          <!-- Links -->
+						          <h6 class="text-uppercase fw-bold mb-4">
+						            Useful links
+						          </h6>
+						          <p>
+						            <a href="#!" class="text-reset">Pricing</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">Settings</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">Orders</a>
+						          </p>
+						          <p>
+						            <a href="#!" class="text-reset">Help</a>
+						          </p>
+						        </div>
+						        <!-- Grid column -->
+
+						        <!-- Grid column -->
+						        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						          <!-- Links -->
+						          <h6 class="text-uppercase fw-bold mb-4">
+						            Contact
+						          </h6>
+						          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+						          <p>
+						            <i class="fas fa-envelope me-3"></i>
+						            info@example.com
+						          </p>
+						          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+						          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+						        </div>
+						        <!-- Grid column -->
+						      </div>
+						      <!-- Grid row -->
+						    </div>
+						  </section>
+						  <!-- Section: Links  -->
+
+						  <!-- Copyright -->
+						  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+						    © 2021 Copyright:
+						    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+						  </div>
+						  <!-- Copyright -->
+						</footer>
+						<!-- Footer -->
+	   </div>
+
+
+
+
+
+<script>
+function toStash(x) {
+  x.classList.toggle("fa-shopping-cart");
+}
+function like(x){
+	x.classList.toggle("")
+}
+</script>
+</body>
+</html>
