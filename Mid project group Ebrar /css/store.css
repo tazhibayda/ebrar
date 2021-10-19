@@ -1,0 +1,32 @@
+.objects{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	/*margin-left: 10%;*/
+}
+.pager{
+	background-image: url('media/icons/bcg.svg');
+	height: 250px;
+	width: 1000px;
+}
+.szs{
+
+}
+.centered {
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%, -120%);
+}
+.centered h1{
+  font-size: 7vmax;
+
+}
+@media (max-width: 760px){
+	.centered{
+		margin-left: 40%;
+	}
+}
+@media(max-width: 375px){
+	.centered h1{
+		font-size: 50px;
+	}
+}
